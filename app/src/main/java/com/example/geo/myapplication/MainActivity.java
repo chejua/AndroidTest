@@ -34,6 +34,17 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
+        try {
+            myImage = task.execute("https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png").get();
+
+            imageView.setImageBitmap(myImage);
+
+        } catch (Exception e) {
+
+            e.printStackTrace();
+
+        }
+
     }
 
 
