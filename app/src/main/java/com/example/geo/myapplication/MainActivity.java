@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -83,6 +84,12 @@ public class MainActivity extends AppCompatActivity {
         imageView = (ImageView)findViewById(R.id.imageView);
 
         //comment para ver si funciono
+
+        String code = "";
+
+        int color;
+
+        RelativeLayout ewc;
 
     }
 }
