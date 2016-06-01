@@ -71,5 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
         imageView = (ImageView)findViewById(R.id.imageView);
 
+        //comment para ver si funciono
+
     }
 }
