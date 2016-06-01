@@ -88,6 +88,8 @@ public class MainActivity extends AppCompatActivity {
         String code = "";
 
         int color;
+        int x;
+        int y;
 
         RelativeLayout ewc;
 
